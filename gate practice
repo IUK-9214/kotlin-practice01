@@ -1,0 +1,26 @@
+fun main (){
+    println("logoic gates ")
+        println("1. AND gate ")
+          println("2. OR gate ")
+            println("1. NOT gate ")
+              println("1. NOR gate ")
+                println("1. XOR gate ")
+                  println("1. XNOR gate ")
+    println("Enter your choice ")
+    var choice=readln().toInt()
+    when (choice){
+        1->{
+            println("you select the AND gate ")
+            var x:Int
+            var y:Int
+            println("enter the value of X : 0 or 1 ")
+            x=readln().toInt()
+            println("enter the Y value : 0 or 1")
+            y=readln().toInt()
+            if (x==0&&y==0){
+                
+            }
+            
+        }
+    }
+}
